@@ -1,12 +1,10 @@
-const name = "John Doe";
-const date = new Date().getDate();
-
-const Greeting = () => {
-  return (
-    <div>
-      <h1>Hello, {name}</h1>
-      <p>{date}</p>
-    </div>
+const Greeting = ({ timeOfDay }) => {
+  return timeOfDay === "morning" ? (
+    <h1 style={{ color: "red", backgroundColor: "yellow", padding: "2rem" }}>
+      Good morning!
+    </h1>
+  ) : (
+    <h1 style={{ color: "green" }}>Good afternoon!</h1>
   );
 };
 
