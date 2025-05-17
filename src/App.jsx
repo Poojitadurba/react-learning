@@ -17,6 +17,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 import StyleCard from "./components/StyleCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
+import ButtonEvents from "./components/ButtonEvents";
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
       <StyleCard />
       <ProfileCard />
       <IconComponent />
+      <ButtonEvents />
     </section>
   );
 };
