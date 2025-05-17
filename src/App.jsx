@@ -18,6 +18,7 @@ import StyleCard from "./components/StyleCard";
 import ProfileCard from "./components/ProfileCard";
 import IconComponent from "./components/IconComponent";
 import ButtonEvents from "./components/ButtonEvents";
+import UseState from "./components/UseState";
 
 const App = () => {
   return (
@@ -52,7 +53,8 @@ const App = () => {
       <StyleCard />
       <ProfileCard />
       <IconComponent />
-      <ButtonEvents />
+      {/* <ButtonEvents /> */}
+      <UseState />
     </section>
   );
 };
